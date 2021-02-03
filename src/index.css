@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 56px;
+  background: #6a26cd;
+}
+
+nav a {
+  margin-left: 1rem;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+nav a:first-child {
+  margin-left: 0;
+}
+
+nav a.active {
+  color: rgba(255, 255, 255, 0.96);
+}
